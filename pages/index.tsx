@@ -1,5 +1,5 @@
-import { MainContent } from 'pagesContent'
 import { Snackbar } from '@spark-ui/snackbar'
+import { MainContent } from 'pagesContent'
 
 function Playground() {
   return (

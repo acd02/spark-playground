@@ -1,6 +1,6 @@
 import { Button } from '@spark-ui/button'
-import { Select } from '@spark-ui/select'
 import { FormField } from '@spark-ui/form-field'
+import { Select } from '@spark-ui/select'
 import { useRef } from 'react'
 
 import themes from '../themes'
