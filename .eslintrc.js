@@ -83,5 +83,15 @@ module.exports = {
       1,
       { anonymous: 'always', named: 'never', asyncArrow: 'always' },
     ],
+    // Tailwind
+    'tailwindcss/classnames-order': 0,
+    'tailwindcss/no-custom-classname': [
+      2,
+      {
+        config: './tailwind.config.js',
+        callees: ['cx', 'classnames', 'clsx', 'cva', 'tw', 'makeVariants'],
+        whitelist: ['sb-unstyled'],
+      },
+    ],
   },
 }
