@@ -43,7 +43,7 @@ module.exports = {
     'jsx-quotes': [1, 'prefer-double'],
     'react/react-in-jsx-scope': 0,
     'react-hooks/rules-of-hooks': 2,
-    'react-hooks/exhaustive-deps': 1,
+    'react-hooks/exhaustive-deps': 2,
     'react/prop-types': 0,
     'react/jsx-key': 0,
     'react/display-name': [0, { ignoreTranspilerName: false }],
